@@ -7,7 +7,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "foundry dev"
+    "start": "foundry dev",
+    "copy": "rm -rf ../../Builds/KMBY/KMBY/node_modules/@protonapp/dacast-components/src && cp -r . ../../Builds/KMBY/KMBY/node_modules/@protonapp/dacast-components/src && rm -rf ../../Builds/KMBY/KMBY/node_modules/@protonapp/dacast-components/ios && cp -r . ../../Builds/KMBY/KMBY/node_modules/@protonapp/dacast-components/ios"
   },
   "proton": {
     "displayName": "DaCast Player",
