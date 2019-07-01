@@ -1,6 +1,6 @@
 {
   "name": "@protonapp/dacast-components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "DaCast streaming components",
   "main": "index.js",
   "author": "Jeremy Blalock <jeremy@foundryplatform.io>",
