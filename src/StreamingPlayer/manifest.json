@@ -1,0 +1,12 @@
+{
+  "displayName": "Streaming Player",
+  "defaultWidth": 375,
+  "defaultHeight": 211,
+  "props": [
+    {
+      "name": "streamId",
+      "displayName": "Stream ID",
+      "type": "text"
+    }
+  ]
+}

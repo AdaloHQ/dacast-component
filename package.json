@@ -1,0 +1,26 @@
+{
+  "name": "@protonapp/dacast-components",
+  "version": "0.0.1",
+  "description": "DaCast streaming components",
+  "main": "index.js",
+  "author": "Jeremy Blalock <jeremy@foundryplatform.io>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "foundry dev"
+  },
+  "proton": {
+    "displayName": "DaCast Player",
+    "components": [
+      {
+        "name": "StreamingPlayer",
+        "manifest": "./src/StreamingPlayer/manifest.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@protonapp/proton-cli": "^0.0.23",
+    "react": "^16.8.6",
+    "react-native": "^0.59.8"
+  }
+}
